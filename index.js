@@ -9,6 +9,16 @@ app.get("/",(req,res)=>{
 app.get("/name",(req,res)=>{
     res.send("Solomon Timiso Feleke")
 })
+app.get("/hobby",(req,res)=>{
+    res.json([{
+        hobby1:"I love studying Holy Bible and some kinds of psychological books",
+       
+        
+    },
+    {
+         hobby2:"Listening Gospel songs"
+    }])
+})
 
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
