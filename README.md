@@ -1,4 +1,4 @@
-# inern-web-server
+# intern-web-server
 This is a mini webserver created by using Node.js and Express which tells about me by using /name,/hobby, and /dream routes
 
 
