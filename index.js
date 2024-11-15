@@ -20,8 +20,8 @@ app.get("/hobby",(req,res)=>{
     }])
 })
 
-app.get("/dream",()=>{
-    res.send("I have a dream to open my own startup that solves my country main problems");
+app.get("/dream",(req,res)=>{
+    res.send("I have a dream to open my own startup that solves my country main problems.<br> <b>Hardship moulds the ideal man!!</b>");
 })
 
 app.listen(port, () => {
