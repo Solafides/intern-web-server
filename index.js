@@ -20,6 +20,10 @@ app.get("/hobby",(req,res)=>{
     }])
 })
 
+app.get("/dream",()=>{
+    res.send("I have a dream to open my own startup that solves my country main problems");
+})
+
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
 });
