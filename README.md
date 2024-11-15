@@ -34,4 +34,4 @@ gives you motivational texts about my dreams and goal.
  
  ## Deployment
 
- The server is accessible at this link
+ The server is accessible at this link https://intern-web-server-i8hz.vercel.app/
